@@ -1,9 +1,22 @@
 ﻿using RestWithASPNet10.Model;
+using RestWithASPNet10.Model.Context;
 
 namespace RestWithASPNet10.Services.Impl
 {
     public class PersonServicesImpl : IPersonServices
     {
+        private MSSQLContext _context;
+
+        public PersonServicesImpl(MSSQLContext context)
+        {
+            _context = context;
+        }
+
+        public List<Person> FindAll()
+        {
+            return _context.Persons.ToList();
+        }
+
         public Person Create(Person person)
         {
             person.Id = new Random().Next(1, 10000);
@@ -13,19 +26,6 @@ namespace RestWithASPNet10.Services.Impl
         public void Delete(long id)
         {
             // Simulate deletion logic here
-        }
-
-        public List<Person> FindAll()
-        {
-            List<Person> people = new List<Person>();
-
-            for (int i = 0; i < 8; i++)
-            {
-                var person = MockPerson(i);
-                people.Add(person);
-            }
-
-            return people; 
         }
 
         public Person FindById(long id)

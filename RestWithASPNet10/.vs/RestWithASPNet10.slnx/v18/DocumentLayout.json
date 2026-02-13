@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\services\\impl\\personservicesimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\services\\impl\\personservicesimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\model\\script\\createtableperson.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\model\\script\\createtableperson.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\model\\script\\createtableperson.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\model\\script\\createtableperson.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,31 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateTablePerson.sql ",
-              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Model\\Script\\CreateTablePerson.sql",
-              "RelativeDocumentMoniker": "RestWithASPNet10\\Model\\Script\\CreateTablePerson.sql",
-              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Model\\Script\\CreateTablePerson.sql",
-              "RelativeToolTip": "RestWithASPNet10\\Model\\Script\\CreateTablePerson.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-02-13T23:12:22.86Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\appsettings.json",
+              "RelativeDocumentMoniker": "RestWithASPNet10\\appsettings.json",
+              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\appsettings.json",
+              "RelativeToolTip": "RestWithASPNet10\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-13T23:44:40.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "RestWithASPNet10\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "RestWithASPNet10\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T23:36:55.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Model\\Person.cs",
-              "RelativeDocumentMoniker": "RestWithASPNet10\\Model\\Person.cs",
-              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Model\\Person.cs",
-              "RelativeToolTip": "RestWithASPNet10\\Model\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Title": "PersonServicesImpl.cs",
+              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Services\\Impl\\PersonServicesImpl.cs",
+              "RelativeDocumentMoniker": "RestWithASPNet10\\Services\\Impl\\PersonServicesImpl.cs",
+              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Services\\Impl\\PersonServicesImpl.cs",
+              "RelativeToolTip": "RestWithASPNet10\\Services\\Impl\\PersonServicesImpl.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T23:02:03.212Z",
+              "WhenOpened": "2026-02-13T23:36:52.094Z",
               "EditorCaption": ""
             }
           ]

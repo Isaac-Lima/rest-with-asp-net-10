@@ -141,6 +141,12 @@
   "components": {
     "schemas": {
       "Person": {
+        "required": [
+          "firstName",
+          "lastName",
+          "address",
+          "gender"
+        ],
         "type": "object",
         "properties": {
           "id": {
@@ -149,21 +155,22 @@
               "integer",
               "string"
             ],
-            "format": "int32"
+            "format": "int64"
           },
           "firstName": {
+            "maxLength": 80,
             "type": "string"
           },
           "lastName": {
+            "maxLength": 80,
             "type": "string"
           },
           "address": {
-            "type": "string"
-          },
-          "city": {
+            "maxLength": 100,
             "type": "string"
           },
           "gender": {
+            "maxLength": 6,
             "type": "string"
           }
         }

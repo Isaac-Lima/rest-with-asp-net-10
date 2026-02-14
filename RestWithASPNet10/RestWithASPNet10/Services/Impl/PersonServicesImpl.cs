@@ -19,37 +19,41 @@ namespace RestWithASPNet10.Services.Impl
 
         public Person Create(Person person)
         {
-            person.Id = new Random().Next(1, 10000);
+            _context.Add(person);
+            _context.SaveChanges();
+
             return person;
         }
 
         public void Delete(long id)
         {
-            // Simulate deletion logic here
+            var existingPerson = _context.Persons.Find(id);
+
+            if (existingPerson == null)
+            {
+                return;
+            }
+
+            _context.Remove(FindById(id));
+            _context.SaveChanges();
         }
 
         public Person FindById(long id)
         {
-            var person = MockPerson((int) id);
-
-            return person;
+            return _context.Persons.Find(id);
         }
 
         public Person Update(Person person)
         {
-            return person;
-        }
+            var existingPerson = _context.Persons.Find(person.Id);
 
-        private Person MockPerson(int i)
-        {
-            var person = new Person
+            if(existingPerson == null)
             {
-                Id = new Random().Next(1, 1000),
-                FirstName = "John " + i,
-                LastName = "Doe " + i,
-                Address = "123 Main " + i,
-                Gender = "Male"
-            };
+                return null;
+            }
+
+            _context.Entry(existingPerson).CurrentValues.SetValues(person);
+            _context.SaveChanges();
 
             return person;
         }

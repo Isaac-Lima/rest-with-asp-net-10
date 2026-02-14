@@ -34,8 +34,7 @@
               "RelativeToolTip": "RestWithASPNet10\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-13T23:44:40.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T23:44:40.649Z"
             },
             {
               "$type": "Document",
@@ -47,8 +46,7 @@
               "RelativeToolTip": "RestWithASPNet10\\Controllers\\PersonController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T23:36:55.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T23:36:55.148Z"
             },
             {
               "$type": "Document",
@@ -58,7 +56,7 @@
               "RelativeDocumentMoniker": "RestWithASPNet10\\Services\\Impl\\PersonServicesImpl.cs",
               "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Services\\Impl\\PersonServicesImpl.cs",
               "RelativeToolTip": "RestWithASPNet10\\Services\\Impl\\PersonServicesImpl.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwB0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T23:36:52.094Z",
               "EditorCaption": ""

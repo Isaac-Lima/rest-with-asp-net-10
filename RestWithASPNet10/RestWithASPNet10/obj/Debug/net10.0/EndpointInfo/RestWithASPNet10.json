@@ -136,6 +136,18 @@
           }
         }
       }
+    },
+    "/api/TestLogs": {
+      "get": {
+        "tags": [
+          "TestLogs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -180,6 +192,9 @@
   "tags": [
     {
       "name": "Person"
+    },
+    {
+      "name": "TestLogs"
     }
   ]
 }

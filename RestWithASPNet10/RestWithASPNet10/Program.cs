@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
 builder.Services.AddControllers();
+builder.AddSeriLogLogging(); 
 
 builder.Services.AddDatabaseConfiguration(builder.Configuration); 
 builder.Services.AddScoped<IPersonServices, PersonServicesImpl>();

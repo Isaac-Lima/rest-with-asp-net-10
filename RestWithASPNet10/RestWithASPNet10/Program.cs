@@ -11,6 +11,7 @@ builder.Services.AddControllers();
 builder.AddSeriLogLogging(); 
 
 builder.Services.AddDatabaseConfiguration(builder.Configuration); 
+builder.Services.AddEvolve(builder.Configuration, builder.Environment);
 builder.Services.AddScoped<IPersonServices, PersonServicesImpl>();
 builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 

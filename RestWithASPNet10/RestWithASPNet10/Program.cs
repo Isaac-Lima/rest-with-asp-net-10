@@ -1,4 +1,6 @@
 using RestWithASPNet10.Configurations;
+using RestWithASPNet10.Repositories;
+using RestWithASPNet10.Repositories.Impl;
 using RestWithASPNet10.Services;
 using RestWithASPNet10.Services.Impl;
 
@@ -10,6 +12,7 @@ builder.AddSeriLogLogging();
 
 builder.Services.AddDatabaseConfiguration(builder.Configuration); 
 builder.Services.AddScoped<IPersonServices, PersonServicesImpl>();
+builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 
 builder.Services.AddOpenApi();
 

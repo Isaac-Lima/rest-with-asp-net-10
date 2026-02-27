@@ -10,5 +10,10 @@ namespace RestWithASPNet10.Model.Context
         {
             get; set;
         }
+
+        public DbSet<Book> Books
+        {
+            get; set;
+        }
     }
 }

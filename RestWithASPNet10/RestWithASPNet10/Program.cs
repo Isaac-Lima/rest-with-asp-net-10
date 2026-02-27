@@ -12,8 +12,12 @@ builder.AddSeriLogLogging();
 
 builder.Services.AddDatabaseConfiguration(builder.Configuration); 
 builder.Services.AddEvolve(builder.Configuration, builder.Environment);
+
 builder.Services.AddScoped<IPersonServices, PersonServicesImpl>();
-builder.Services.AddScoped<IPersonRepository, PersonRepository>();
+builder.Services.AddScoped<IBookService, BookServiceImpl>();
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
+
 
 builder.Services.AddOpenApi();
 

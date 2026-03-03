@@ -1,7 +1,8 @@
-﻿using RestWithASPNet10.Data.DTO;
+﻿using RestWithASPNet10.Data.Converter.Contract;
+using RestWithASPNet10.Data.DTO;
 using RestWithASPNet10.Model;
 
-namespace RestWithASPNet10.Data.Converter.Contract.Impl
+namespace RestWithASPNet10.Data.Converter.Impl
 {
     public class PersonConverter : IParser<PersonDTO, Person>, IParser<Person, PersonDTO>
     {
@@ -14,7 +15,8 @@ namespace RestWithASPNet10.Data.Converter.Contract.Impl
                 Id = origin.Id,
                 FirstName = origin.FirstName,
                 LastName = origin.LastName,
-                Address = origin.Address
+                Address = origin.Address,
+                Gender = origin.Gender
             };
             }
 
@@ -34,7 +36,8 @@ namespace RestWithASPNet10.Data.Converter.Contract.Impl
                 Id = origin.Id,
                 FirstName = origin.FirstName,
                 LastName = origin.LastName,
-                Address = origin.Address
+                Address = origin.Address,
+                Gender = origin.Gender
             };
         }
 

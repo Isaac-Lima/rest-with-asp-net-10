@@ -93,7 +93,7 @@
     "Parameters": [
       {
         "Name": "person",
-        "Type": "RestWithASPNet10.Model.Person",
+        "Type": "RestWithASPNet10.Data.DTO.PersonDTO",
         "IsRequired": true
       }
     ],
@@ -109,7 +109,7 @@
     "Parameters": [
       {
         "Name": "person",
-        "Type": "RestWithASPNet10.Model.Person",
+        "Type": "RestWithASPNet10.Data.DTO.PersonDTO",
         "IsRequired": true
       }
     ],

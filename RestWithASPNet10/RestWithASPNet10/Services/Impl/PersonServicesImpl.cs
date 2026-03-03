@@ -1,4 +1,6 @@
-﻿using RestWithASPNet10.Model;
+﻿using RestWithASPNet10.Data.Converter.Impl;
+using RestWithASPNet10.Data.DTO;
+using RestWithASPNet10.Model;
 using RestWithASPNet10.Model.Context;
 using RestWithASPNet10.Repositories;
 
@@ -7,20 +9,30 @@ namespace RestWithASPNet10.Services.Impl
     public class PersonServicesImpl : IPersonServices
     {
         private readonly IRepository<Person> _repository;
+        private readonly PersonConverter _converter;
 
         public PersonServicesImpl(IRepository<Person> repository)
         {
             _repository = repository;
+            _converter = new PersonConverter();
         } 
 
-        public List<Person> FindAll()
+        public List<PersonDTO> FindAll()
         {
-            return _repository.FindAll();
+            return _converter.ParseList(_repository.FindAll());
         }
 
-        public Person Create(Person person)
+        public PersonDTO FindById(long id)
         {
-            return _repository.Create(person);
+            return _converter.Parse(_repository.FindById(id));
+        }
+
+        public PersonDTO Create(PersonDTO person)
+        {
+            var entity = _converter.Parse(person);
+            entity = _repository.Create(entity);
+
+            return _converter.Parse(entity);
         }
 
         public void Delete(long id)
@@ -28,14 +40,12 @@ namespace RestWithASPNet10.Services.Impl
             _repository.Delete(id);
         }
 
-        public Person FindById(long id)
+        public PersonDTO Update(PersonDTO person)
         {
-            return _repository.FindById(id);    
-        }
+            var entity = _converter.Parse(person);
+            entity = _repository.Update(entity);
 
-        public Person Update(Person person)
-        {
-            return _repository.Update(person);
+            return _converter.Parse(entity);
         }
     }
 }

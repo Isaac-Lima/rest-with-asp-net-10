@@ -156,17 +156,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Person"
+                "$ref": "#/components/schemas/PersonDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Person"
+                "$ref": "#/components/schemas/PersonDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Person"
+                "$ref": "#/components/schemas/PersonDTO"
               }
             }
           },
@@ -186,17 +186,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Person"
+                "$ref": "#/components/schemas/PersonDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Person"
+                "$ref": "#/components/schemas/PersonDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Person"
+                "$ref": "#/components/schemas/PersonDTO"
               }
             }
           },
@@ -311,31 +311,9 @@
           }
         }
       },
-      "Person": {
-        "required": [
-          "firstName",
-          "lastName",
-          "address",
-          "gender"
-        ],
+      "PersonDTO": {
         "type": "object",
         "properties": {
-          "firstName": {
-            "maxLength": 80,
-            "type": "string"
-          },
-          "lastName": {
-            "maxLength": 80,
-            "type": "string"
-          },
-          "address": {
-            "maxLength": 100,
-            "type": "string"
-          },
-          "gender": {
-            "maxLength": 6,
-            "type": "string"
-          },
           "id": {
             "pattern": "^-?(?:0|[1-9]\\d*)$",
             "type": [
@@ -343,6 +321,18 @@
               "string"
             ],
             "format": "int64"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "address": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "string"
           }
         }
       }

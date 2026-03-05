@@ -1,12 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using RestWithASPNet10.Data.DTO;
-using RestWithASPNet10.Model;
+﻿using Microsoft.AspNetCore.Mvc;
+using RestWithASPNet10.Data.DTO.V1;
 using RestWithASPNet10.Services;
 
 namespace RestWithASPNet10.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/v1")]
     [ApiController]
     public class BookController : ControllerBase
     {

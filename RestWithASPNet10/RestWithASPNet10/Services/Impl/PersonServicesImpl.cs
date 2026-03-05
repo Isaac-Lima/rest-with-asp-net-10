@@ -1,5 +1,5 @@
 ﻿using RestWithASPNet10.Data.Converter.Impl;
-using RestWithASPNet10.Data.DTO;
+using RestWithASPNet10.Data.DTO.V1;
 using RestWithASPNet10.Model;
 using RestWithASPNet10.Model.Context;
 using RestWithASPNet10.Repositories;

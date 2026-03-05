@@ -1,4 +1,4 @@
-﻿using RestWithASPNet10.Data.DTO;
+﻿using RestWithASPNet10.Data.DTO.V1;
 
 namespace RestWithASPNet10.Services
 {

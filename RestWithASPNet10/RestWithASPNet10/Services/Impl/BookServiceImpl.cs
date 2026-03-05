@@ -1,5 +1,5 @@
 ﻿using Mapster;
-using RestWithASPNet10.Data.DTO;
+using RestWithASPNet10.Data.DTO.V1;
 using RestWithASPNet10.Model;
 using RestWithASPNet10.Repositories;
 using RestWithASPNet10.Repositories.Impl;

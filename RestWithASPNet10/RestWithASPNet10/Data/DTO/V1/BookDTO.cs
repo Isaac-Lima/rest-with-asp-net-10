@@ -1,4 +1,4 @@
-﻿namespace RestWithASPNet10.Data.DTO
+﻿namespace RestWithASPNet10.Data.DTO.V1
 {
     public class BookDTO
     {

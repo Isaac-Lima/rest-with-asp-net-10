@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace RestWithASPNet10.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/v1")]
     public class TestLogsController : ControllerBase
     {
         private readonly ILogger<TestLogsController> _logger;

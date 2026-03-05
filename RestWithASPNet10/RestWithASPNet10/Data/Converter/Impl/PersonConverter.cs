@@ -1,5 +1,5 @@
 ﻿using RestWithASPNet10.Data.Converter.Contract;
-using RestWithASPNet10.Data.DTO.V1;
+using RestWithASPNet10.Data.DTO.V2;
 using RestWithASPNet10.Model;
 
 namespace RestWithASPNet10.Data.Converter.Impl
@@ -16,7 +16,8 @@ namespace RestWithASPNet10.Data.Converter.Impl
                 FirstName = origin.FirstName,
                 LastName = origin.LastName,
                 Address = origin.Address,
-                Gender = origin.Gender
+                Gender = origin.Gender,
+                //BirthDay = origin.BirthDay
             };
             }
 
@@ -37,7 +38,9 @@ namespace RestWithASPNet10.Data.Converter.Impl
                 FirstName = origin.FirstName,
                 LastName = origin.LastName,
                 Address = origin.Address,
-                Gender = origin.Gender
+                Gender = origin.Gender,
+                BirthDay = DateTime.Now, // Mocking BirthDay since it's not present in the Person model. You can adjust this as needed.
+                //BirthDay = origin.BirthDay ?? DateTime.Now,
             };
         }
 

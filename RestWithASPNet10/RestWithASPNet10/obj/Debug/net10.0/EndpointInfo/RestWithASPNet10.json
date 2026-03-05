@@ -13,7 +13,39 @@
     }
   ],
   "paths": {
-    "/api/Book": {
+    "/api/PersonControllerV2/v2": {
+      "post": {
+        "tags": [
+          "PersonControllerV2"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Book/v1": {
       "get": {
         "tags": [
           "Book"
@@ -85,7 +117,7 @@
         }
       }
     },
-    "/api/Book/{id}": {
+    "/api/Book/v1/{id}": {
       "get": {
         "tags": [
           "Book"
@@ -137,7 +169,7 @@
         }
       }
     },
-    "/api/Person": {
+    "/api/Person/v1": {
       "get": {
         "tags": [
           "Person"
@@ -209,7 +241,7 @@
         }
       }
     },
-    "/api/Person/{id}": {
+    "/api/Person/v1/{id}": {
       "get": {
         "tags": [
           "Person"
@@ -261,7 +293,7 @@
         }
       }
     },
-    "/api/TestLogs": {
+    "/api/TestLogs/v1": {
       "get": {
         "tags": [
           "TestLogs"
@@ -329,12 +361,22 @@
           },
           "gender": {
             "type": "string"
+          },
+          "birthDay": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
           }
         }
       }
     }
   },
   "tags": [
+    {
+      "name": "PersonControllerV2"
+    },
     {
       "name": "Book"
     },

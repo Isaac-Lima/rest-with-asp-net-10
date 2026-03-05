@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "RestWithASPNet10.Controllers.BookController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.BookController",
     "Method": "Get",
-    "RelativePath": "api/Book",
+    "RelativePath": "api/Book/v1",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,41 +10,41 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.BookController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.BookController",
     "Method": "Post",
-    "RelativePath": "api/Book",
+    "RelativePath": "api/Book/v1",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "book",
-        "Type": "RestWithASPNet10.Data.DTO.BookDTO",
+        "Type": "RestWithASPNet10.Data.DTO.V1.BookDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.BookController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.BookController",
     "Method": "Put",
-    "RelativePath": "api/Book",
+    "RelativePath": "api/Book/v1",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "book",
-        "Type": "RestWithASPNet10.Data.DTO.BookDTO",
+        "Type": "RestWithASPNet10.Data.DTO.V1.BookDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.BookController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.BookController",
     "Method": "Get",
-    "RelativePath": "api/Book/{id}",
+    "RelativePath": "api/Book/v1/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -58,9 +58,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.BookController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.BookController",
     "Method": "Delete",
-    "RelativePath": "api/Book/{id}",
+    "RelativePath": "api/Book/v1/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -74,9 +74,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.PersonController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.PersonController",
     "Method": "Get",
-    "RelativePath": "api/Person",
+    "RelativePath": "api/Person/v1",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -84,41 +84,41 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.PersonController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.PersonController",
     "Method": "Post",
-    "RelativePath": "api/Person",
+    "RelativePath": "api/Person/v1",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "person",
-        "Type": "RestWithASPNet10.Data.DTO.PersonDTO",
+        "Type": "RestWithASPNet10.Data.DTO.V1.PersonDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.PersonController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.PersonController",
     "Method": "Put",
-    "RelativePath": "api/Person",
+    "RelativePath": "api/Person/v1",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "person",
-        "Type": "RestWithASPNet10.Data.DTO.PersonDTO",
+        "Type": "RestWithASPNet10.Data.DTO.V1.PersonDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.PersonController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.PersonController",
     "Method": "Get",
-    "RelativePath": "api/Person/{id}",
+    "RelativePath": "api/Person/v1/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -132,9 +132,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.PersonController",
+    "ContainingType": "RestWithASPNet10.Controllers.V1.PersonController",
     "Method": "Delete",
-    "RelativePath": "api/Person/{id}",
+    "RelativePath": "api/Person/v1/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -148,9 +148,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.TestLogsController",
+    "ContainingType": "RestWithASPNet10.Controllers.V2.PersonControllerV2",
+    "Method": "Post",
+    "RelativePath": "api/PersonControllerV2/v2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "person",
+        "Type": "RestWithASPNet10.Data.DTO.V2.PersonDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestWithASPNet10.Controllers.V1.TestLogsController",
     "Method": "LogTest",
-    "RelativePath": "api/TestLogs",
+    "RelativePath": "api/TestLogs/v1",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

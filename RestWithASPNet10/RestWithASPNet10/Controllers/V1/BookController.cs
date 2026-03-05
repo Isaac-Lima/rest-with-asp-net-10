@@ -2,7 +2,7 @@
 using RestWithASPNet10.Data.DTO.V1;
 using RestWithASPNet10.Services;
 
-namespace RestWithASPNet10.Controllers
+namespace RestWithASPNet10.Controllers.V1
 {
     [Route("api/[controller]/v1")]
     [ApiController]

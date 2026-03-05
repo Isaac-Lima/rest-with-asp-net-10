@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using RestWithASPNet10.Data.DTO.V1;
-using RestWithASPNet10.Model;
 using RestWithASPNet10.Services;
 
-namespace RestWithASPNet10.Controllers
+namespace RestWithASPNet10.Controllers.V1
 {
     [Route("api/[controller]/v1")]
     [ApiController]
@@ -56,7 +54,8 @@ namespace RestWithASPNet10.Controllers
                 _logger.LogError("Failed to create person: {firstName}", person.FirstName);
                 return BadRequest();
             }
-
+            Response.Headers.Add("X-API-Deprecated", "true"); 
+            Response.Headers.Add("X-API-Deprecation-Date", "2026-12-31");
             return Ok(person);
         }
 

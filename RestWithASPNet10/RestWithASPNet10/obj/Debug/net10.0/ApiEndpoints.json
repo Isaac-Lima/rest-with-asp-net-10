@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "book",
-        "Type": "RestWithASPNet10.Model.Book",
+        "Type": "RestWithASPNet10.Data.DTO.BookDTO",
         "IsRequired": true
       }
     ],
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "book",
-        "Type": "RestWithASPNet10.Model.Book",
+        "Type": "RestWithASPNet10.Data.DTO.BookDTO",
         "IsRequired": true
       }
     ],

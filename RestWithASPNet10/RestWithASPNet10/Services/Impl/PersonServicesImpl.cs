@@ -26,7 +26,7 @@ namespace RestWithASPNet10.Services.Impl
 
         public PersonDTO Create(PersonDTO person)
         {
-            var entity = _repository.Adapt<Person>();
+            var entity = person.Adapt<Person>();
             entity = _repository.Create(entity);
 
             return entity.Adapt<PersonDTO>();

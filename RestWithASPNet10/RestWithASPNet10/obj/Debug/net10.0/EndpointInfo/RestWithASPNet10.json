@@ -13,7 +13,7 @@
     }
   ],
   "paths": {
-    "/api/PersonControllerV2/v2": {
+    "/api/person/v2": {
       "post": {
         "tags": [
           "PersonControllerV2"

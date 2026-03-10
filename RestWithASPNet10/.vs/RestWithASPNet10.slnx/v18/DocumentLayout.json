@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\controllers\\v2\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\controllers\\v2\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BB2BACC-1CD0-4392-860E-216770C9978B}|RestWithASPNet10.Tests\\RestWithASPNet10.Tests.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB2BACC-1CD0-4392-860E-216770C9978B}|RestWithASPNet10.Tests\\RestWithASPNet10.Tests.csproj|solutionrelative:restwithaspnet10.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PersonController.cs",
-              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Controllers\\V2\\PersonController.cs",
-              "RelativeDocumentMoniker": "RestWithASPNet10\\Controllers\\V2\\PersonController.cs",
-              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Controllers\\V2\\PersonController.cs",
-              "RelativeToolTip": "RestWithASPNet10\\Controllers\\V2\\PersonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "RestWithASPNet10.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "RestWithASPNet10.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T11:24:58.546Z",
+              "WhenOpened": "2026-03-10T12:04:32.873Z",
               "EditorCaption": ""
             }
           ]

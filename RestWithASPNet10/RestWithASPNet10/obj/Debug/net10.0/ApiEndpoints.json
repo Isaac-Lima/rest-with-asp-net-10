@@ -148,9 +148,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "RestWithASPNet10.Controllers.V2.PersonControllerV2",
+    "ContainingType": "RestWithASPNet10.Controllers.V2.PersonController",
     "Method": "Post",
-    "RelativePath": "api/person/v2",
+    "RelativePath": "api/Person/v2",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

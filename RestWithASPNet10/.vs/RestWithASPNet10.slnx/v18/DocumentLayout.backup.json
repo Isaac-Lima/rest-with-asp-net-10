@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\controllers\\v2\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\controllers\\v2\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,19 +26,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Program.cs",
-              "RelativeDocumentMoniker": "RestWithASPNet10\\Program.cs",
-              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Program.cs",
-              "RelativeToolTip": "RestWithASPNet10\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:57:54.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PersonController.cs",
               "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Controllers\\V2\\PersonController.cs",
@@ -51,7 +34,7 @@
               "RelativeToolTip": "RestWithASPNet10\\Controllers\\V2\\PersonController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T13:54:39.405Z",
+              "WhenOpened": "2026-03-10T11:24:58.546Z",
               "EditorCaption": ""
             }
           ]

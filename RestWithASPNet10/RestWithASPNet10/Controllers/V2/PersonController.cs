@@ -6,12 +6,12 @@ namespace RestWithASPNet10.Controllers.V2
 {
     [Route("api/[controller]/v2")]
     [ApiController]
-    public class PersonControllerV2 : ControllerBase
+    public class PersonController : ControllerBase
     {
         private readonly PersonServicesImplV2 _personServices;
-        private readonly ILogger<PersonControllerV2> _logger;
+        private readonly ILogger<PersonController> _logger;
 
-        public PersonControllerV2(PersonServicesImplV2 personServices, ILogger<PersonControllerV2> logger)
+        public PersonController(PersonServicesImplV2 personServices, ILogger<PersonController> logger)
         {
             _personServices = personServices;
             _logger = logger;

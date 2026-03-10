@@ -13,10 +13,10 @@
     }
   ],
   "paths": {
-    "/api/person/v2": {
+    "/api/Person/v2": {
       "post": {
         "tags": [
-          "PersonControllerV2"
+          "Person"
         ],
         "requestBody": {
           "content": {
@@ -375,13 +375,10 @@
   },
   "tags": [
     {
-      "name": "PersonControllerV2"
+      "name": "Person"
     },
     {
       "name": "Book"
-    },
-    {
-      "name": "Person"
     },
     {
       "name": "TestLogs"

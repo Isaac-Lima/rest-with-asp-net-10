@@ -58,5 +58,50 @@ namespace RestWithASPNet10.Tests
             var person = _converter.Parse(dto);
             person.Should().BeNull();
         }
+
+        // Person < PersonDTO conversion tests
+        [Fact]
+        public void Parse_ShouldConvertPersonToPersonDTO()
+        {
+            // Arrange: prepare the data, objects, and dependencies required for the test
+            var entity = new Person
+            {
+                Id = 1,
+                FirstName = "Mahatma",
+                LastName = "Gandhi",
+                Address = "Porbandan - India",
+                Gender = "Male",
+            };
+
+            var expectedPerson = new Person
+            {
+                Id = 1,
+                FirstName = "Mahatma",
+                LastName = "Gandhi",
+                Address = "Porbandan - India",
+                Gender = "Male"
+            };
+
+            // Act: execute the method or functionality under test
+            var person = _converter.Parse(entity);
+
+            // Assert: verify that the expected results matches the expected outcome
+            person.Should().NotBeNull();
+            person.Id.Should().Be(expectedPerson.Id);
+            person.FirstName.Should().Be(expectedPerson.FirstName);
+            person.LastName.Should().Be(expectedPerson.LastName);
+            person.Address.Should().Be(expectedPerson.Address);
+            person.Should().BeEquivalentTo(expectedPerson);
+            person.BirthDay.Should().NotBeNull();
+        }
+
+        [Fact]
+        public void Parse_ShouldReturnNull_WhenPersonIsNull()
+        {
+            Person dto = null;
+
+            var person = _converter.Parse(dto);
+            person.Should().BeNull();
+        }
     }
 }

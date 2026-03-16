@@ -1,4 +1,5 @@
 ﻿using FluentAssertions;
+using Microsoft.Extensions.Options;
 using RestWithASPNet10.Data.Converter.Impl;
 using RestWithASPNet10.Data.DTO.V2;
 using RestWithASPNet10.Model;
@@ -137,7 +138,8 @@ namespace RestWithASPNet10.Tests
             personList.Should().NotBeNull();
             personList.Should().HaveCount(dtos.Count);
 
-            personList[0].Should().BeEquivalentTo(new Person { 
+            personList[0].Should().BeEquivalentTo(new Person
+            {
                 Id = 1,
                 FirstName = "Mahatma",
                 LastName = "Gandhi",
@@ -170,6 +172,76 @@ namespace RestWithASPNet10.Tests
         {
             List<PersonDTO> dto = null;
 
+            var listPerson = _converter.ParseList(dto);
+            listPerson.Should().BeNull();
+        }
+
+        [Fact]
+        public void ParseList_ShouldConvertListOfPersonToListOfPersonDTO()
+        {
+            // Arrange: prepare the data, objects, and dependencies required for the test
+            var entities = new List<Person>
+            {
+                new Person
+                {
+                    Id = 1,
+                    FirstName = "Mahatma",
+                    LastName = "Gandhi",
+                    Address = "Porbandan - India",
+                    Gender = "Male"
+                },
+                new Person
+                {
+                    Id = 2,
+                    FirstName = "Indira",
+                    LastName = "Gandhi",
+                    Address = "Allahabad - India",
+                    Gender = "Female",
+                }
+            };
+
+            // Act: execute the method or functionality under test
+            var personList = _converter.ParseList(entities);
+
+            // Assert: verify that the expected results matches the expected outcome
+            personList.Should().NotBeNull();
+            personList.Should().HaveCount(entities.Count);
+
+            personList[0].Should().BeEquivalentTo(new PersonDTO
+            {
+                Id = 1,
+                FirstName = "Mahatma",
+                LastName = "Gandhi",
+                Address = "Porbandan - India",
+                Gender = "Male",
+                BirthDay = new DateTime(1917, 11, 19) // Mocking BirthDay since it's not present in the Person model.
+            }, options => options.Excluding(person => person.BirthDay));
+
+            personList[1].Should().BeEquivalentTo(new PersonDTO
+            {
+                Id = 2,
+                FirstName = "Indira",
+                LastName = "Gandhi",
+                Address = "Allahabad - India",
+                Gender = "Female",
+                BirthDay = new DateTime(1917, 11, 19) // Mocking BirthDay since it's not present in the Person model.
+            }, options => options.Excluding(person => person.BirthDay));
+
+            personList[0].FirstName.Should().Be("Mahatma");
+            personList[0].LastName.Should().Be("Gandhi");
+            personList[0].Address.Should().Be("Porbandan - India");
+            personList[0].Gender.Should().Be("Male");
+
+            personList[1].FirstName.Should().Be("Indira");
+            personList[1].LastName.Should().Be("Gandhi");
+            personList[1].Address.Should().Be("Allahabad - India");
+            personList[1].Gender.Should().Be("Female");
+        }
+
+        [Fact]
+        public void Parse_NullListPersonShouldReturnNull()
+        {
+            List<Person> dto = null;
             var listPerson = _converter.ParseList(dto);
             listPerson.Should().BeNull();
         }

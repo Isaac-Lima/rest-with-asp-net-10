@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3BB2BACC-1CD0-4392-860E-216770C9978B}|RestWithASPNet10.Tests\\RestWithASPNet10.Tests.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10.tests\\personconvertertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BB2BACC-1CD0-4392-860E-216770C9978B}|RestWithASPNet10.Tests\\RestWithASPNet10.Tests.csproj|solutionrelative:restwithaspnet10.tests\\personconvertertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\data\\converter\\impl\\personconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\data\\converter\\impl\\personconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +30,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonConverter.cs",
+              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Data\\Converter\\Impl\\PersonConverter.cs",
+              "RelativeDocumentMoniker": "RestWithASPNet10\\Data\\Converter\\Impl\\PersonConverter.cs",
+              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Data\\Converter\\Impl\\PersonConverter.cs",
+              "RelativeToolTip": "RestWithASPNet10\\Data\\Converter\\Impl\\PersonConverter.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:12:41.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PersonConverterTests.cs",
               "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10.Tests\\PersonConverterTests.cs",
               "RelativeDocumentMoniker": "RestWithASPNet10.Tests\\PersonConverterTests.cs",
               "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10.Tests\\PersonConverterTests.cs",
               "RelativeToolTip": "RestWithASPNet10.Tests\\PersonConverterTests.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAwwK4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAowOQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T12:13:17.002Z",
               "EditorCaption": ""

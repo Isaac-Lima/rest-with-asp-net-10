@@ -342,24 +342,7 @@
       "PersonDTO": {
         "type": "object",
         "properties": {
-          "id": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
-            "format": "int64"
-          },
-          "firstName": {
-            "type": "string"
-          },
-          "lastName": {
-            "type": "string"
-          },
           "address": {
-            "type": "string"
-          },
-          "gender": {
             "type": "string"
           },
           "birthDay": {
@@ -368,6 +351,23 @@
               "string"
             ],
             "format": "date-time"
+          },
+          "code": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int64"
+          },
+          "first_name": {
+            "type": "string"
+          },
+          "last_name": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "string"
           }
         }
       }

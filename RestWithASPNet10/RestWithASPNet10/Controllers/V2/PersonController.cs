@@ -31,7 +31,7 @@ namespace RestWithASPNet10.Controllers.V2
 
             //createdPerson.LastName = null;
             //createdPerson.Age = 0;
-            createdPerson.Age = 20;
+            //createdPerson.Age = 20;
             return Ok(createdPerson);
         }
     }

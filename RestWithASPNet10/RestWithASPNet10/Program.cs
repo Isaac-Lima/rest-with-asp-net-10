@@ -7,7 +7,8 @@ using RestWithASPNet10.Services.Impl;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddContentNegotiation();
 builder.AddSeriLogLogging(); 
 
 builder.Services.AddDatabaseConfiguration(builder.Configuration); 

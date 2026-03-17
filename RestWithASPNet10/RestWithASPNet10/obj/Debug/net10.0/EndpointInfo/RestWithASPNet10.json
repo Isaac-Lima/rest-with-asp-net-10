@@ -34,6 +34,21 @@
               "schema": {
                 "$ref": "#/components/schemas/PersonDTO"
               }
+            },
+            "application/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            },
+            "application/*+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
             }
           },
           "required": true
@@ -76,6 +91,21 @@
               "schema": {
                 "$ref": "#/components/schemas/BookDTO"
               }
+            },
+            "application/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDTO"
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDTO"
+              }
+            },
+            "application/*+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDTO"
+              }
             }
           },
           "required": true
@@ -103,6 +133,21 @@
               }
             },
             "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDTO"
+              }
+            },
+            "application/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDTO"
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/BookDTO"
+              }
+            },
+            "application/*+xml": {
               "schema": {
                 "$ref": "#/components/schemas/BookDTO"
               }
@@ -200,6 +245,21 @@
               "schema": {
                 "$ref": "#/components/schemas/PersonDTO"
               }
+            },
+            "application/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            },
+            "application/*+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
             }
           },
           "required": true
@@ -227,6 +287,21 @@
               }
             },
             "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            },
+            "application/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            },
+            "text/xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonDTO"
+              }
+            },
+            "application/*+xml": {
               "schema": {
                 "$ref": "#/components/schemas/PersonDTO"
               }
@@ -368,14 +443,6 @@
               "string"
             ],
             "format": "date-time"
-          },
-          "age": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
-            "format": "int32"
           }
         }
       }

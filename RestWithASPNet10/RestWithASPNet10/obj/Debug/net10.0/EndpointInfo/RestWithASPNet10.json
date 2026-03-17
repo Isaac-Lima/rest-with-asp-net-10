@@ -359,9 +359,23 @@
           "address": {
             "type": "string"
           },
-          "gender": { },
+          "gender": {
+            "type": "string"
+          },
           "birthDay": {
+            "type": [
+              "null",
+              "string"
+            ],
             "format": "date-time"
+          },
+          "age": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
           }
         }
       }

@@ -29,7 +29,10 @@ namespace RestWithASPNet10.Controllers.V2
                 return BadRequest();
             }
 
-            return Ok(person);
+            //createdPerson.LastName = null;
+            //createdPerson.Age = 0;
+            createdPerson.Age = 20;
+            return Ok(createdPerson);
         }
     }
 }

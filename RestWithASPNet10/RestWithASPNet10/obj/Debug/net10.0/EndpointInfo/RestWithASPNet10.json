@@ -359,9 +359,7 @@
           "address": {
             "type": "string"
           },
-          "gender": {
-            "type": "string"
-          },
+          "gender": { },
           "birthDay": {
             "format": "date-time"
           }

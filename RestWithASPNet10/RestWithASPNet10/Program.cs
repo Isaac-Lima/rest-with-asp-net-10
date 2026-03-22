@@ -9,7 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container
 builder.Services.AddControllers()
     .AddContentNegotiation();
-builder.AddSeriLogLogging(); 
+builder.AddSeriLogLogging();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddOpenAPIConfig();
+builder.Services.AddSwaggerConfig();
+builder.Services.AddRouteConfig();
 
 builder.Services.AddDatabaseConfiguration(builder.Configuration); 
 builder.Services.AddEvolve(builder.Configuration, builder.Environment);
@@ -19,7 +24,6 @@ builder.Services.AddScoped<IBookService, BookServiceImpl>();
 builder.Services.AddScoped<PersonServicesImplV2>();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
-
 
 builder.Services.AddOpenApi();
 
@@ -35,5 +39,6 @@ app.UseHttpsRedirection();
 
 app.MapControllers();
 
+app.UseSwaggerSpecification();
 
 app.Run();

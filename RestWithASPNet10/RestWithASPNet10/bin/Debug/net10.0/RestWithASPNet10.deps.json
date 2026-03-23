@@ -9,10 +9,11 @@
       "RestWithASPNet10/1.0.0": {
         "dependencies": {
           "Evolve": "3.2.0",
-          "Mapster": "7.4.0",
+          "Mapster": "10.0.3",
           "Microsoft.AspNetCore.Mvc.Formatters.Xml.Extensions": "10.0.0",
-          "Microsoft.AspNetCore.OpenApi": "10.0.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.0",
+          "Microsoft.AspNetCore.OpenApi": "10.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.5",
+          "Scalar.AspNetCore": "2.13.13",
           "Serilog.AspNetCore": "10.0.0",
           "Serilog.Settings.Configuration": "10.0.0",
           "Serilog.Sinks.Console": "6.1.1",
@@ -56,22 +57,22 @@
           }
         }
       },
-      "Mapster/7.4.0": {
+      "Mapster/10.0.3": {
         "dependencies": {
-          "Mapster.Core": "1.2.1"
+          "Mapster.Core": "10.0.1"
         },
         "runtime": {
-          "lib/net7.0/Mapster.dll": {
-            "assemblyVersion": "7.4.0.0",
-            "fileVersion": "7.4.0.0"
+          "lib/net10.0/Mapster.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.3.0"
           }
         }
       },
-      "Mapster.Core/1.2.1": {
+      "Mapster.Core/10.0.1": {
         "runtime": {
-          "lib/net7.0/Mapster.Core.dll": {
-            "assemblyVersion": "1.2.1.0",
-            "fileVersion": "1.2.1.0"
+          "lib/netstandard2.0/Mapster.Core.dll": {
+            "assemblyVersion": "10.0.1.0",
+            "fileVersion": "10.0.1.0"
           }
         }
       },
@@ -83,14 +84,14 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/10.0.2": {
+      "Microsoft.AspNetCore.OpenApi/10.0.5": {
         "dependencies": {
           "Microsoft.OpenApi": "2.4.1"
         },
         "runtime": {
           "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "assemblyVersion": "10.0.2.0",
-            "fileVersion": "10.0.225.61305"
+            "assemblyVersion": "10.0.5.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
@@ -202,45 +203,45 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/10.0.0": {
+      "Microsoft.EntityFrameworkCore/10.0.5": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.0"
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.5"
         },
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "assemblyVersion": "10.0.5.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/10.0.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.5": {
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "assemblyVersion": "10.0.5.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/10.0.0": {
+      "Microsoft.EntityFrameworkCore.Relational/10.0.5": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "10.0.0"
+          "Microsoft.EntityFrameworkCore": "10.0.5"
         },
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "assemblyVersion": "10.0.5.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/10.0.0": {
+      "Microsoft.EntityFrameworkCore.SqlServer/10.0.5": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "6.1.1",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.0"
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.5"
         },
         "runtime": {
           "lib/net10.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "assemblyVersion": "10.0.5.0",
+            "fileVersion": "10.0.526.15411"
           }
         }
       },
@@ -352,6 +353,14 @@
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Scalar.AspNetCore/2.13.13": {
+        "runtime": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "assemblyVersion": "2.13.13.0",
+            "fileVersion": "2.13.13.0"
           }
         }
       },
@@ -575,19 +584,19 @@
       "path": "evolve/3.2.0",
       "hashPath": "evolve.3.2.0.nupkg.sha512"
     },
-    "Mapster/7.4.0": {
+    "Mapster/10.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-RYGoDqvS4WTKIq0HDyPBBVIj6N0mluOCXQ1Vk95JKseMHEsbCXSEGKSlP95oL+s42IXAXbqvHj7p0YaRBUcfqg==",
-      "path": "mapster/7.4.0",
-      "hashPath": "mapster.7.4.0.nupkg.sha512"
+      "sha512": "sha512-bMPpvOR/mRoZ+Bi+yGynjMg29P8oTj162Shz+PqCQuaKdxnEFyYe4mj1c3+XRoHFl8mTYQBWwotMwa4wHFb3UA==",
+      "path": "mapster/10.0.3",
+      "hashPath": "mapster.10.0.3.nupkg.sha512"
     },
-    "Mapster.Core/1.2.1": {
+    "Mapster.Core/10.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-11lokmfliBEMMmjeqxFGNpqGXq6tN96zFqpBmfYeahr4Ybk63oDmeJmOflsATjobYkX248g5Y62oQ2NNnZaeww==",
-      "path": "mapster.core/1.2.1",
-      "hashPath": "mapster.core.1.2.1.nupkg.sha512"
+      "sha512": "sha512-WqXtJqM9O1obr3r/l+n1HV0Ukld8j+BySv9EXOcDGWooA54AdUi4JsqKdQMvTLNmVGLjAi93zty5G9XouD8MaA==",
+      "path": "mapster.core/10.0.1",
+      "hashPath": "mapster.core.10.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Formatters.Xml.Extensions/10.0.0": {
       "type": "package",
@@ -596,12 +605,12 @@
       "path": "microsoft.aspnetcore.mvc.formatters.xml.extensions/10.0.0",
       "hashPath": "microsoft.aspnetcore.mvc.formatters.xml.extensions.10.0.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.OpenApi/10.0.2": {
+    "Microsoft.AspNetCore.OpenApi/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YuEjUNpsoZLs0I5ONt013Z+Udsz3f9sPUh1Xm59LN7+/Z8oVG/swCUYLBbANtfreiunWnoT2uk+5kst4s2jr3Q==",
-      "path": "microsoft.aspnetcore.openapi/10.0.2",
-      "hashPath": "microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512"
+      "sha512": "sha512-vTcxIfOPyfFbYk1g8YcXJfkMnlEWVkSnnjxcZLy60zgwiHMRf2SnZR+9E4HlpwKxgE3yfKMOti8J6WfKuKsw6w==",
+      "path": "microsoft.aspnetcore.openapi/10.0.5",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
       "type": "package",
@@ -631,33 +640,33 @@
       "path": "microsoft.data.sqlclient.sni.runtime/6.0.2",
       "hashPath": "microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore/10.0.0": {
+    "Microsoft.EntityFrameworkCore/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hHa2amRjMyBLUH/KTML6FgIAhZ0VFYkhCKwWEax0rO6iNeM1P5MflyeQLE5dniSIOZHc3Oqyv5UIyTFO4e1Auw==",
-      "path": "microsoft.entityframeworkcore/10.0.0",
-      "hashPath": "microsoft.entityframeworkcore.10.0.0.nupkg.sha512"
+      "sha512": "sha512-9tNBmK3EpYVGRQLiqP+bqK2m+TD0Gv//4vCzR7ZOgl4FWzCFyOpYdIVka13M4kcBdPdSJcs3wbHr3rmzOqbIMA==",
+      "path": "microsoft.entityframeworkcore/10.0.5",
+      "hashPath": "microsoft.entityframeworkcore.10.0.5.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/10.0.0": {
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-C+TT9k7f1GQ8agOfV512K9iwrzi76RXVSDiLx+iWC9pz3QhEpSF1Dyk+FpVvd8ULQ+rqymfM8KQ7g48ttQVyMg==",
-      "path": "microsoft.entityframeworkcore.abstractions/10.0.0",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512"
+      "sha512": "sha512-32c58Rnm47Qvhimawf67KO9PytgPz3QoWye7Abapt0Yocw/JnzMiSNj/pRoIKyn8Jxypkv86zxKD4Q/zNTc0Ag==",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.5",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.5.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/10.0.0": {
+    "Microsoft.EntityFrameworkCore.Relational/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-A3MX1ee7RDxWCUdx/KqP+74fbksz0UIhkVZh56YHvbPkEKsffCXgHU3LGkRDwqR/MrBNWLCWC/IVX79tzM30ZA==",
-      "path": "microsoft.entityframeworkcore.relational/10.0.0",
-      "hashPath": "microsoft.entityframeworkcore.relational.10.0.0.nupkg.sha512"
+      "sha512": "sha512-uxmFjZEAB/KbsgWFSS4lLqkEHCfXxB2x0UcbiO4e5fCRpFFeTMSx/me6009nYJLu5IKlDwO1POh++P6RilFTDw==",
+      "path": "microsoft.entityframeworkcore.relational/10.0.5",
+      "hashPath": "microsoft.entityframeworkcore.relational.10.0.5.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/10.0.0": {
+    "Microsoft.EntityFrameworkCore.SqlServer/10.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9ip+r8Wtu0qNtFLYnQC3bkhQAsINIyo8XWYJHCVY22BFLxIT4rPxZPkbto56SjCnkwxS6nnbFZTU6KuAO2Nu1g==",
-      "path": "microsoft.entityframeworkcore.sqlserver/10.0.0",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.10.0.0.nupkg.sha512"
+      "sha512": "sha512-/3Ault1Ay6OIEp3ZGGVem4mSWyEOX9e5leUMalGV9aFM57e0xFHAnlhmNaBHYtILkbtkaAErikQuaLqMQb4fww==",
+      "path": "microsoft.entityframeworkcore.sqlserver/10.0.5",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.10.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyModel/10.0.0": {
       "type": "package",
@@ -735,6 +744,13 @@
       "sha512": "sha512-N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "path": "microsoft.sqlserver.server/1.0.0",
       "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
+    },
+    "Scalar.AspNetCore/2.13.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QS94/CNp2thhykXwBaOHjDe8Zlexs8v0QOrdLfUvxS85uW84IhCf1zGiOnYZNNtVxunJvtsr7yPgEP36TXnJ3w==",
+      "path": "scalar.aspnetcore/2.13.13",
+      "hashPath": "scalar.aspnetcore.2.13.13.nupkg.sha512"
     },
     "Serilog/4.3.0": {
       "type": "package",

@@ -40,5 +40,6 @@ app.UseHttpsRedirection();
 app.MapControllers();
 
 app.UseSwaggerSpecification();
+app.UseScalarConfiguration();
 
 app.Run();

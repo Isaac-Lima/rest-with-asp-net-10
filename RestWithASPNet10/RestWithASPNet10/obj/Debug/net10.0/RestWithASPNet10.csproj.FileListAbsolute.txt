@@ -91,3 +91,4 @@ C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\obj\Debug\net10.0\
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\obj\Debug\net10.0\RestWithASPNet10.pdb
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\obj\Debug\net10.0\RestWithASPNet10.genruntimeconfig.cache
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\obj\Debug\net10.0\ref\RestWithASPNet10.dll
+C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\Scalar.AspNetCore.dll

@@ -488,3 +488,7 @@ C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10.Tests\obj\Debug\ne
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10.Tests\obj\Debug\net10.0\RestWithASPNet10.Tests.pdb
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10.Tests\obj\Debug\net10.0\RestWithASPNet10.Tests.genruntimeconfig.cache
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10.Tests\obj\Debug\net10.0\ref\RestWithASPNet10.Tests.dll
+C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10.Tests\bin\Debug\net10.0\db\migrations\V1__Create_Table_Person.sql
+C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10.Tests\bin\Debug\net10.0\db\migrations\V3__Create_Table_Books.sql
+C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10.Tests\bin\Debug\net10.0\db\dataset\V2__Populate_Table_Person.sql
+C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10.Tests\bin\Debug\net10.0\db\dataset\V4__Insert_Data_In_Books.sql

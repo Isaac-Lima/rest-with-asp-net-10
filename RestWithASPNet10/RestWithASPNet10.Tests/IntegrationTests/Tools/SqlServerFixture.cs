@@ -11,7 +11,7 @@ namespace RestWithASPNet10.Tests.IntegrationTests.Tools
         public SqlServerFixture()
         {
             Container = new MsSqlBuilder()
-                .WithPassword("@Admin123")
+                .WithPassword("Agn@##16")
                 .Build();
         }
 

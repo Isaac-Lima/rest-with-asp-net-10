@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\configurations\\scalarconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\configurations\\scalarconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10\\configurations\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79892FAD-08D0-08C3-90E7-1F61EAD64CB5}|RestWithASPNet10\\RestWithASPNet10.csproj|solutionrelative:restwithaspnet10\\configurations\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BB2BACC-1CD0-4392-860E-216770C9978B}|RestWithASPNet10.Tests\\RestWithASPNet10.Tests.csproj|c:\\dev\\rest-with-asp-net-10\\restwithaspnet10\\restwithaspnet10.tests\\integrationtests\\tools\\sqlserverfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB2BACC-1CD0-4392-860E-216770C9978B}|RestWithASPNet10.Tests\\RestWithASPNet10.Tests.csproj|solutionrelative:restwithaspnet10.tests\\integrationtests\\tools\\sqlserverfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SwaggerConfig.cs",
-              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Configurations\\SwaggerConfig.cs",
-              "RelativeDocumentMoniker": "RestWithASPNet10\\Configurations\\SwaggerConfig.cs",
-              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Configurations\\SwaggerConfig.cs",
-              "RelativeToolTip": "RestWithASPNet10\\Configurations\\SwaggerConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T23:03:28.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ScalarConfig.cs",
-              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Configurations\\ScalarConfig.cs",
-              "RelativeDocumentMoniker": "RestWithASPNet10\\Configurations\\ScalarConfig.cs",
-              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Configurations\\ScalarConfig.cs",
-              "RelativeToolTip": "RestWithASPNet10\\Configurations\\ScalarConfig.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAABJAAAAAAAAAA==",
+              "Title": "SqlServerFixture.cs",
+              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10.Tests\\IntegrationTests\\Tools\\SqlServerFixture.cs",
+              "RelativeDocumentMoniker": "RestWithASPNet10.Tests\\IntegrationTests\\Tools\\SqlServerFixture.cs",
+              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10.Tests\\IntegrationTests\\Tools\\SqlServerFixture.cs",
+              "RelativeToolTip": "RestWithASPNet10.Tests\\IntegrationTests\\Tools\\SqlServerFixture.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T23:03:06.221Z",
+              "WhenOpened": "2026-04-16T17:08:48.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Program.cs",
-              "RelativeDocumentMoniker": "RestWithASPNet10\\Program.cs",
-              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\Program.cs",
-              "RelativeToolTip": "RestWithASPNet10\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T23:02:38.062Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\appsettings.json",
+              "RelativeDocumentMoniker": "RestWithASPNet10\\appsettings.json",
+              "ToolTip": "C:\\dev\\rest-with-asp-net-10\\RestWithASPNet10\\RestWithASPNet10\\appsettings.json",
+              "RelativeToolTip": "RestWithASPNet10\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T16:47:11.607Z",
               "EditorCaption": ""
             }
           ]

@@ -12,6 +12,7 @@ namespace RestWithASPNet10.Tests.IntegrationTests.Tools
         {
             Container = new MsSqlBuilder()
                 .WithPassword("Agn@##16")
+                .WithPortBinding(0, 1433)
                 .Build();
         }
 

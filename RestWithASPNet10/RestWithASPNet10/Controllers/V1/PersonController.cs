@@ -4,8 +4,8 @@ using RestWithASPNet10.Services;
 
 namespace RestWithASPNet10.Controllers.V1
 {
-    [Route("api/[controller]/v1")]
     [ApiController]
+    [Route("api/[controller]/v1")]
     public class PersonController : ControllerBase
     {
         private readonly IPersonServices _personServices;
@@ -32,6 +32,7 @@ namespace RestWithASPNet10.Controllers.V1
         [ProducesResponseType(200, Type = typeof(PersonDTO))]
         [ProducesResponseType(400)]
         [ProducesResponseType(401)]
+        //[EnableCors("LocalPolicy")]
         public IActionResult Get(long id)
         {
             _logger.LogInformation("Getting person with id {Id}", id);
@@ -53,6 +54,7 @@ namespace RestWithASPNet10.Controllers.V1
         [ProducesResponseType(200, Type = typeof(PersonDTO))]
         [ProducesResponseType(400)]
         [ProducesResponseType(401)]
+        //[EnableCors("MultipleOriginPolicy")]
         public IActionResult Post([FromBody] PersonDTO person)
         {
             _logger.LogInformation("Creating a new person: {firstName}", person.FirstName);

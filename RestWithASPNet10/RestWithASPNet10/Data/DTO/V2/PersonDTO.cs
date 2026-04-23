@@ -29,6 +29,7 @@ namespace RestWithASPNet10.Data.DTO.V2
         //[JsonConverter(typeof(DateSerializer))]
         //[JsonIgnore]
         public DateTime? BirthDay { get; set; }
+        public bool Enabled { get; set; }
 
         //[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
         //public int Age { get; set; }

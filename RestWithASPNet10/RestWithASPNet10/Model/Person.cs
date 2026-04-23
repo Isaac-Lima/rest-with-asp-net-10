@@ -27,6 +27,9 @@ namespace RestWithASPNet10.Model
         [MaxLength(6)]
         public string Gender { get; set; }
 
+        [Column("enabled", TypeName = "bit")]
+        public bool Enabled { get; set; }
+
         //[NotMapped]
         //public DateTime? BirthDay { get; set; }
     }

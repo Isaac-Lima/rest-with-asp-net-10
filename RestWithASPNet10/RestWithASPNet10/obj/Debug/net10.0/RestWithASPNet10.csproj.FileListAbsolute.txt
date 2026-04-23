@@ -31,6 +31,7 @@ C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\Microsoft.OpenApi.dll
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\Scalar.AspNetCore.dll
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\Serilog.dll
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\Serilog.AspNetCore.dll
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
@@ -91,4 +92,3 @@ C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\obj\Debug\net10.0\
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\obj\Debug\net10.0\RestWithASPNet10.pdb
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\obj\Debug\net10.0\RestWithASPNet10.genruntimeconfig.cache
 C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\obj\Debug\net10.0\ref\RestWithASPNet10.dll
-C:\dev\rest-with-asp-net-10\RestWithASPNet10\RestWithASPNet10\bin\Debug\net10.0\Scalar.AspNetCore.dll

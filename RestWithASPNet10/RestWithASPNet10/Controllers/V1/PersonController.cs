@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RestWithASPNet10.Data.DTO.V1;
+using RestWithASPNet10.Model;
 using RestWithASPNet10.Services;
 
 namespace RestWithASPNet10.Controllers.V1
@@ -110,6 +111,26 @@ namespace RestWithASPNet10.Controllers.V1
 
             _logger.LogDebug("Person with id {Id} deleted successfully", id);
             return NoContent();
+        }
+
+        [HttpPatch("{id}")]
+        [ProducesResponseType(200, Type = typeof(PersonDTO))]
+        [ProducesResponseType(401)]
+        [ProducesResponseType(404)]
+        public IActionResult Patch(long id) {
+            _logger.LogInformation("Disabling person with id {Id}", id);
+
+            var disabledPerson = _personServices.Disable(id);
+
+            if (disabledPerson == null)
+            {
+                _logger.LogError("Failed to disable person with id {Id}", id);
+                return NotFound();
+            }
+
+            _logger.LogDebug("Person with id {Id} disabled successfully", id);
+
+            return Ok();
         }
     }
 }

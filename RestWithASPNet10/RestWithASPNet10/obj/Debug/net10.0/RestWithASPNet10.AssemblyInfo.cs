@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestWithASPNet10")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a7bc90ba436d7c152de1dca244a7c9aee139c64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7647fa6616343c916d871b025108f1ec9a99b2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestWithASPNet10")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestWithASPNet10")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

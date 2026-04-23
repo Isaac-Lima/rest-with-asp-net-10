@@ -7,9 +7,9 @@ namespace RestWithASPNet10.Services.Impl
 {
     public class PersonServicesImpl : IPersonServices
     {
-        private readonly IRepository<Person> _repository;
+        private readonly IPersonRepository _repository;
 
-        public PersonServicesImpl(IRepository<Person> repository)
+        public PersonServicesImpl(IPersonRepository repository)
         {
             _repository = repository;
         } 
@@ -41,6 +41,13 @@ namespace RestWithASPNet10.Services.Impl
         {
             var entity = person.Adapt<Person>();
             entity = _repository.Update(entity);
+
+            return entity.Adapt<PersonDTO>();
+        }
+
+        public PersonDTO Disable(long id)
+        {
+            var entity = _repository.Disable(id);
 
             return entity.Adapt<PersonDTO>();
         }

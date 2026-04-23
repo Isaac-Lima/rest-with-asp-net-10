@@ -67,7 +67,7 @@ namespace RestWithASPNet10.Controllers.V1
             }
             Response.Headers.Add("X-API-Deprecated", "true"); 
             Response.Headers.Add("X-API-Deprecation-Date", "2026-12-31");
-            return Ok(person);
+            return Ok(createdPerson);
         }
 
         [HttpPut]
